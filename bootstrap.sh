@@ -100,3 +100,7 @@ npm update -g npm
 # Grunt CLI
 # ---------
 npm install -g grunt-cli
+
+# Grunt Compass
+# -------------
+gem install compass
