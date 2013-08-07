@@ -13,7 +13,7 @@ VHOST=$(cat <<EOF
   DocumentRoot "/vagrant/Sites"
   ServerName localhost
   <Directory "/vagrant/Sites">
-    AllowOverride All
+    Require all granted
   </Directory>
 </VirtualHost>
 EOF
