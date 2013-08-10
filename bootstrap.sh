@@ -10,9 +10,10 @@ echo "ServerName localhost" > /etc/apache2/httpd.conf
 # Setup hosts file
 VHOST=$(cat <<EOF
 <VirtualHost *:80>
-  DocumentRoot "/vagrant/Sites"
+  DocumentRoot "/vagrant/Sites/default"
   ServerName localhost
-  <Directory "/vagrant/Sites">
+  <Directory "/vagrant/Sites/default">
+    AllowOverride All
     Require all granted
   </Directory>
 </VirtualHost>
