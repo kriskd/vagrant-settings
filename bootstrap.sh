@@ -45,6 +45,8 @@ apt-get install -y php5-mysql
 apt-get install -y php5-curl
 # Module for MCrypt functions in PHP
 apt-get install -y php5-mcrypt
+# GD
+apt-get install -y php5-gd
 
 # cURL
 # ----
