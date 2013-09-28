@@ -104,6 +104,6 @@ npm update -g npm
 # ---------
 npm install -g grunt-cli
 
-# Grunt Compass
-# -------------
-gem install compass
+# IMAP
+# ----
+apt-get install php5-imap
